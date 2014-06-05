@@ -29,9 +29,9 @@
 		<property name="mailServerPort" value="5025" />
 	</bean>
 	<!-- 
-				org.activiti.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration		for test. use h2 database
-				org.activiti.spring.SpringProcessEngineConfiguration	when the process engine use in spring environment
-				org.activiti.engine.impl.cfg.JtaProcessEngineConfiguration	when the process engine runs in standalone mode, with JTA transaction. 
+		org.activiti.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration		for test. use h2 database
+		org.activiti.spring.SpringProcessEngineConfiguration	when the process engine use in spring environment
+		org.activiti.engine.impl.cfg.JtaProcessEngineConfiguration	when the process engine runs in standalone mode, with JTA transaction. 
 	 -->
 	 
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
