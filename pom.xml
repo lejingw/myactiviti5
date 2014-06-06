@@ -99,6 +99,13 @@
 			<scope>runtime</scope>
 		</dependency>
 		
+		<!-- groovy脚本引擎，使用<scriptTask scriptFormat="groovy">节点时用到
+		<dependency>
+		      <groupId>org.codehaus.groovy</groupId>
+		      <artifactId>groovy-all</artifactId>
+		      <version>2.x.x<version>
+		</dependency>
+		 -->
 		<!-- test -->
 		<dependency>
 			<groupId>junit</groupId>
