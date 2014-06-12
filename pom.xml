@@ -114,6 +114,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
 	<build>
 		<finalName>myactiviti5</finalName>
 	</build>
